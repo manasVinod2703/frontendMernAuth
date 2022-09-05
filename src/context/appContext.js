@@ -1,4 +1,4 @@
-import React,{useState,useEffect,useContext,useReducer} from 'react';
+import React,{useContext,useReducer} from 'react';
 import { CLEAR_ALERT, SETUP_USER_BEGIN, SETUP_USER_ERROR, SETUP_USER_SUCCESS, SHOW_ALERT } from './actions';
 import reducer from './reducer';
 import axios from 'axios'
