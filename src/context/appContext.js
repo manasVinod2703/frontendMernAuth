@@ -74,7 +74,7 @@ const AppProvider = ({children}) =>{
          })
 
          try{
-                const response = await axios.post(`http://localhost:4000/api/v1/auth/${endpoint}`,currentUser);
+                const response = await axios.post(`https://mern-authentication-manas.herokuapp.com/api/v1/auth/${endpoint}`,currentUser);
                 //console.log(response)
 
                 const {user,token} = response.data;
