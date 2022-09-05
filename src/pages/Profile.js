@@ -5,11 +5,11 @@ import Navbar from '../assets/Navbar'
 import Title from '../assets/Title'
 import Button from '../assets/Button'
 import { useNavigate } from 'react-router-dom'
-import Alert from '../components/Alert'
+
 
 const Profile = () => {
 
-  const {user,removeUserFromLocalStorage,showAlert} = useAppContext()
+  const {user,removeUserFromLocalStorage} = useAppContext()
   
   const navigate = useNavigate();
 
