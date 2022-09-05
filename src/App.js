@@ -1,6 +1,6 @@
 import React from 'react'
 import { Register,Profile,Home } from './pages';
-import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import ProtectedRoute from './pages/ProtectedRoute';
 function App() {
   return (
