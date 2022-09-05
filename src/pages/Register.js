@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import Navbar from "../assets/Navbar";
 import Title from "../assets/Title";
 import Wrapper from "../assets/Register";
-import Button from "../assets/Button";
+
 import Alert from "../components/Alert";
 import { useAppContext } from "../context/appContext";
 import { useNavigate } from "react-router-dom";
